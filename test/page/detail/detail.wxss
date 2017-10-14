@@ -1,0 +1,236 @@
+.booksimg-view {
+  height: 450rpx;
+}
+
+.books-img {
+  width: 100%;
+  height: 100%;
+}
+
+.name {
+  text-align: center;
+  margin-top: 20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  margin-bottom: 10rpx;
+}
+
+.view-borrow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35rpx;
+}
+
+.pubt-view {
+  display: flex;  
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  width: 100%;
+}
+
+.pub-view {
+  display: flex;
+  justify-content: center;
+  width: 33.3%;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  border-style: solid;
+  border-right-color: #888;
+  text-align: center;
+  align-items: center;
+  border-right-width: 0rpx;
+}
+
+.pub-text {
+  font-size: 25rpx;
+  color: #888;
+}
+
+.view-summary {
+  padding: 20rpx 37.5rpx;
+  border-top: 1px solid rgb(237, 237, 237);
+}
+
+.summary-text {
+  font-size: 35rpx;
+}
+
+.summary {
+  text-indent: 5rem;
+  font-size: 27rpx;
+  color: rgb(166, 166, 166);
+}
+
+.view-borrow-nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(97, 146, 255, 1);
+  color: rgb(255, 255, 255);
+  padding: 20rpx 20rpx;
+  border-radius: 100rpx;
+  min-width: 300rpx;
+  margin-right: 30rpx;
+  height: 50rpx;
+}
+
+.view-borrow-nav-text {
+  font-size: 50rpx;
+}
+
+.view-borrow-view {
+  width: 90rpx;
+  height: 90rpx;
+  background-color: rgb(237, 237, 237);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100rpx;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(219, 219, 219);
+}
+
+.view-borrow-view-img {
+  width: 70%;
+  height: 70%;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.view-likelist-view {
+  padding: 20rpx 37.5rpx;
+  border-bottom-color: rgb(237, 237, 237);
+  border-top: 1px solid rgb(237, 237, 237);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.view-likelist-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+  border-radius: 100rpx;
+}
+
+.view-text {
+  font-size: 30rpx;
+}
+
+.view-likelist-text {
+  font-size: 30rpx;
+  color: rgb(166, 166, 166);
+  margin-right: 10px;
+}
+
+.view-likelist-likeuser-view {
+  display: flex;
+  justify-content: space-between;
+}
+
+.view-likeuser-nav {
+  align-self: flex-start;
+  height: 70rpx;
+  border-radius: 100rpx;
+}
+
+.view-likeuser-view {
+  width: 80rpx;
+  height: 80rpx;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 100rpx;
+  margin-bottom: 20rpx;
+}
+
+.view-likeuser-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100rpx;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.view-comment {
+  padding: 20rpx 37.5rpx;
+  padding-bottom: 10rpx;
+}
+
+.view-comment-num {
+  margin-bottom: 15rpx;
+}
+
+.view-01 {
+  display: flex;
+  margin-bottom: 25rpx;
+}
+
+.view-02 {
+  flex: 1 1 0%;
+  margin-left: 10rpx;
+}
+
+.view-03 {
+  display: flex;
+  justfy-content: space-between;
+  align-items: center;
+  margin-bottom: 5rpx;
+}
+
+.text-comment-username {
+  font-size: 25rpx;
+  color: rgb(27, 91, 166);
+  display: block;
+}
+
+.img-comment {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: transparent;
+}
+
+.text-comment {
+  font-size: 25rpx;
+  color: rgb(84, 84, 84);
+  line-height: 30rpx;
+  margin-bottom: 35rpx;
+}
+
+.view-operate-comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50rpx;
+}
+
+.data-comment {
+  font-size: 25rpx;
+  padding-right: 2rpx;
+  color: #888;
+}
+
+.button {
+  margin-right: 50rpx;
+  margin-left: 50rpx;
+  font-size: 35rpx;
+}
+
+.bookinf {
+  display: block;
+}
+
+.text-author {
+  text-align: center;
+  margin-top: 10rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  margin-bottom: 10rpx;
+  font-size: 30rpx;
+  color: #888;
+}

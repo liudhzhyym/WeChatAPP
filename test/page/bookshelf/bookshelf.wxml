@@ -1,0 +1,14 @@
+<view class="c-minheight">
+  <view class="list-view">
+    <navigator class="nav-view" hover-class="navigator-hover" url="../detail/detail">
+      <image class="nav-img" mode="aspectFill" style="background-image:url({{image}}) " />
+      <view class="nav-textview" style="opacity:0.8">
+        <view class="text-view">
+          <text class="c-block textview-text">{{title}}</text>
+          <text class="c-block textview-text">{{author}}</text>
+        </view>
+      </view>
+    </navigator>
+  </view>
+  <navigator catchtap="tap_10e7ce1c" class="TOT-navigator" hover-class="navigator-hover" open-type="navigate" url="../search/search" />
+</view>

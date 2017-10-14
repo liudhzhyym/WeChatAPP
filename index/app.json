@@ -1,0 +1,57 @@
+{
+  "debug": true, 
+  "window": {
+    "navigationBarTextStyle": "white", 
+    "navigationBarBackgroundColor": "#3278e6", 
+    "navigationBarTitleText": "\u8be6\u60c5", 
+    "backgroundColor": "#ffffff", 
+    "enablePullDownRefresh": false, 
+    "backgroundTextStyle": "dark"
+  }, 
+  "pages": [
+    "page/home/home", 
+    "page/bookshelf/bookshelf", 
+    "page/bookstore/bookstore", 
+    "page/my/my", 
+    "page/search/search", 
+    "page/detail/detail"
+  ], 
+  "tabBar": {
+    "color": "#7F8389", 
+    "selectedColor": "#09BB07", 
+    "borderStyle": "white", 
+    "list": [
+      {
+        "text": "\u9996\u9875", 
+        "pagePath": "page/home/home", 
+        "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png", 
+        "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png"
+      }, 
+      {
+        "text": "\u4e66\u67b6", 
+        "pagePath": "page/bookshelf/bookshelf", 
+        "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png", 
+        "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png"
+      }, 
+      {
+        "text": "\u4e66\u57ce", 
+        "pagePath": "page/bookstore/bookstore", 
+        "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png", 
+        "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png"
+      }, 
+      {
+        "text": "\u6211\u7684", 
+        "pagePath": "page/my/my", 
+        "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png", 
+        "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png"
+      }
+    ], 
+    "backgroundColor": "#ebebeb"
+  }, 
+  "networkTimeout": {
+    "connectSocket": "", 
+    "request": "", 
+    "downloadFile": "", 
+    "uploadFile": ""
+  }
+}

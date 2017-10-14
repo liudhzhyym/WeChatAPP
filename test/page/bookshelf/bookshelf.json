@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#3278e6",
+  "navigationBarTitleText": "书架",
+  "backgroundColor": "#ffffff",
+  "enablePullDownRefresh": false,
+  "backgroundTextStyle": "dark"
+}

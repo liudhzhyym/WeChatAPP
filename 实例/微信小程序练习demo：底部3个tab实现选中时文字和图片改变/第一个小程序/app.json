@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/demo/demo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#0f0",
+    "backgroundColor": "#ffo",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "我是底部1",
+        "selectedIconPath": "pages/images/2.png",
+        "iconPath": "pages/images/1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我是底部2",
+         "selectedIconPath": "pages/images/2.png",
+        "iconPath": "pages/images/1.png"
+      },
+      {
+        "pagePath": "pages/demo/demo",
+        "text": "我是底部3",
+         "selectedIconPath": "pages/images/2.png",
+        "iconPath": "pages/images/1.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

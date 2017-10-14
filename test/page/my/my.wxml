@@ -1,0 +1,37 @@
+<view class="container">
+  <view class="body">
+    <view class="body-wrapper">
+      <view class="body-info">
+        <block wx:if="{{hasUserInfo === false}}">
+          <text class="body-text">请先登录</text>
+        </block>
+        <block wx:if="{{hasUserInfo === true}}">
+          <view class="userinfo-view">
+            <wx-image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></wx-image>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+          </view>
+        </block>
+      </view>
+
+
+      <view class="body-buttons">
+        <block wx:if="{{hasUserInfo === false}}">
+          <button class="body-button" type="primary" bindtap="getUserInfo" loading="{{loading}}">{{login}}</button>
+        </block>
+        <block wx:if="{{hasUserInfo === true}}">
+          <button class="body-button" bindtap="clear">注销</button>
+          <view class="cells cells_after-title">
+            <navigator url="{{item.url}}" class="cell cell_access" hover-class="cell_active" wx:for="{{meList}}" wx:key="text">
+              <view class="cell__hd">
+                <image src="{{item.icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+              </view>
+              <view class="cell__bd" style="padding-top:10rpx;">{{item.text}}</view>
+              <view class="badge" wx:if="{{showBadge}}"></view>
+              <view class="cell__ft cell__ft_in-access"></view>
+            </navigator>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+</view>

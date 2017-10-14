@@ -1,0 +1,6 @@
+<view class="c-minheight search-search" data-c_e_id="wx_view_0e9db9eb">
+    <input class="c-block c-fullwidth search-search-input" data-c_e_id="wx_input_6a499ed7" name="input1" placeholder="请输入书名、作者" type="text"/>
+    <navigator class="search-search-nav" data-c_e_id="wx_navigator_b70d9158" hover-class="navigator-hover" open-type="redirect">
+        <image class="search-search-nav-img" data-c_e_id="wx_image_fb8c9d8c" mode="scaleToFill" src="http://qty83k.creatby.com/materials/origin/784d8f3cec9c1d59172b758b9eb70764_origin.png" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat; background-image:      url(http://qty83k.creatby.com/materials/origin/784d8f3cec9c1d59172b758b9eb70764_origin.png); "/>
+    </navigator>
+</view>

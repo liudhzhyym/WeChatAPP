@@ -1,0 +1,8 @@
+<view>{{text}}</view>
+<button bindtap="changeText"> 改变数据</button>
+<view>{{array[0].text}}</view>
+<button bindtap="changeItemInArray">改变数组数据</button>
+<view>{{obj.text}}</view>
+<button bindtap="changeItemInObject"> 改变对象集合里的 </button>
+<view>{{newField.text}}</view>
+<button bindtap="addNewField"> 新创建数据</button>

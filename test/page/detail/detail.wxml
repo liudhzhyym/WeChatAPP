@@ -1,0 +1,125 @@
+<view class="booksimg-view">
+  <image class="books-img" src="{{image}}" />
+</view>
+<view class="view">
+  <view class="c-minheight bookinf">
+    <text class="c-block name">{{title}}</text>
+    <label class="checkbox c-block weui-checkbox-label_xrf515" />
+    <text class="c-block text-author">{{author}}</text>
+    <view class="pubt-view">
+      <view class="pub-view" style="border-width:0px 0px 0px 0px;">
+        <text class="pub-text">{{publisher}}</text>
+      </view>
+      <view class="pub-view" style="border-width:0px 1px 0px 1px;">
+        <text class="pub-text">{{pubdate}}</text>
+      </view>
+      <view class="pub-view" style="border-width:0px 0px 0px 0px;">
+        <text class="pub-text">藏书量：{{col_book}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="view-borrow">
+    <navigator class="view-borrow-nav" hover-class="navigator-hover">
+      <text class="c-block view-borrow-nav-text">借阅</text>
+    </navigator>
+    <view class="view-borrow-view">
+      <image class="view-borrow-view-img" mode="aspectFit" style="background-image: url(http://qty83k.creatby.com/materials/origin/c5656ef00d38d89eae437c5a9102f8fa_origin.png); " />
+    </view>
+  </view>
+  <view class="view-summary">
+    <text class="c-block summary-text">简介</text>
+    <view style="text-indent:26px">
+      <text class="summary">{{summary}}</text>
+    </view>
+  </view>
+  <view class="view-likelist-view">
+    <navigator class="view-likelist-nav" hover-class="navigator-hover">
+      <text class="c-block view-text">214人收藏</text>
+      <text class="c-block view-likelist-text">❯</text>
+    </navigator>
+    <view class="view-likelist-likeuser-view">
+      <navigator class="view-likeuser-nav" hover-class="navigator-hover">
+        <view class="view-likeuser-view">
+          <image class="view-likeuser-img" mode="aspectFill" style="background-image: url(http://o3bnyc.creatby.com/diazo/images/image-placeholder.svg); " />
+        </view>
+      </navigator>
+      <navigator class="view-likeuser-nav" hover-class="navigator-hover">
+        <view class="view-likeuser-view">
+          <image class="view-likeuser-img" mode="aspectFill" style="background-image: url(http://o3bnyc.creatby.com/diazo/images/image-placeholder.svg); " />
+        </view>
+      </navigator>
+      <navigator class="view-likeuser-nav" hover-class="navigator-hover">
+        <view class="view-likeuser-view">
+          <image class="view-likeuser-img" mode="aspectFill" style="background-image: url(http://o3bnyc.creatby.com/diazo/images/image-placeholder.svg); " />
+        </view>
+      </navigator>
+      <navigator class="view-likeuser-nav" hover-class="navigator-hover">
+        <view class="view-likeuser-view">
+          <image class="view-likeuser-img" mode="aspectFill" style="background-image: url(http://o3bnyc.creatby.com/diazo/images/image-placeholder.svg); " />
+        </view>
+      </navigator>
+      <navigator class="view-likeuser-nav" hover-class="navigator-hover">
+        <view class="view-likeuser-view">
+          <image class="view-likeuser-img" mode="aspectFill" style="background-image: url(http://o3bnyc.creatby.com/diazo/images/image-placeholder.svg); " />
+        </view>
+      </navigator>
+      <navigator class="view-likeuser-nav" hover-class="navigator-hover">
+        <view class="view-likeuser-view">
+          <image class="view-likeuser-img" mode="aspectFill" style="background-image: url(http://o3bnyc.creatby.com/diazo/images/image-placeholder.svg); " />
+        </view>
+      </navigator>
+      <navigator class="view-likeuser-nav" hover-class="navigator-hover">
+        <view class="view-likeuser-view">
+          <image class="view-likeuser-img" mode="aspectFill" style="background-image: url(http://o3bnyc.creatby.com/diazo/images/image-placeholder.svg); " />
+        </view>
+      </navigator>
+    </view>
+  </view>
+  <view class="view-comment">
+    <view class="view-comment-num">
+      <navigator class="view-likelist-nav" hover-class="navigator-hover">
+        <text class="c-block view-text">2人点评</text>
+        <text class="c-block view-likelist-text">❯</text>
+      </navigator>
+    </view>
+    <view class="view-01">
+      <navigator class="view-likeuser-nav" hover-class="navigator-hover">
+        <view class="view-likeuser-view">
+          <image class="view-likeuser-img" mode="aspectFill" style="background-image: url(http://o3bnyc.creatby.com/diazo/images/image-placeholder.svg); " />
+        </view>
+      </navigator>
+      <view class="c-minheight view-02">
+        <view class="view-03">
+          <navigator class="nav-comment-username" hover-class="navigator-hover">
+            <text class="text-comment-username">UserName</text>
+          </navigator>
+        </view>
+        <text class="c-block text-comment">点评内容</text>
+        <view class="view-operate-comment">
+          <text class="data-comment">2016.10.29</text>
+        </view>
+      </view>
+    </view>
+    <view class="view-01">
+      <navigator class="view-likeuser-nav" hover-class="navigator-hover">
+        <view class="view-likeuser-view">
+          <image class="view-likeuser-img" mode="aspectFill" style="background-image: url(http://o3bnyc.creatby.com/diazo/images/image-placeholder.svg); " />
+        </view>
+      </navigator>
+      <view class="c-minheight view-02">
+        <view class="view-03">
+          <navigator class="nav-comment-username" hover-class="navigator-hover">
+            <text class="text-comment-username">UserName</text>
+          </navigator>
+        </view>
+        <text class="c-block text-comment">点评内容</text>
+        <view class="view-operate-comment">
+          <text class="data-comment">2016.10.29</text>
+        </view>
+      </view>
+    </view>
+    <button bindtap="tap_3013baf2" class="button" hover-class="button-hover" size="default" type="default">
+      写点评
+    </button>
+  </view>
+</view>

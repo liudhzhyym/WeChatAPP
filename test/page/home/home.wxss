@@ -1,0 +1,132 @@
+page {
+  height: 5000rpx;
+}
+
+.search {
+  min-height: 0rpx;
+  height: 93.75rpx;
+  display: flex;
+  width: 100%;
+  margin-bottom: 0rpx;
+  background-color: rgb(50, 120, 230);
+}
+
+.search-input {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  align-self: center;
+  padding-left: 50rpx;
+  padding-right: 50rpx;
+  overflow: hidden;
+  height: 75rpx;
+  border-radius: 50rpx;
+  font-size: 37.5rpx;
+  background-color: rgb(227, 227, 227);
+}
+
+.swiper {
+  width: 100%;
+  height: 375rpx;
+}
+
+.swiper-item {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  width: 249.75rpx;
+  height: 225rpx;
+  position: relative;
+  align-self: baseline;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 auto;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: center;
+  font-size: 35rpx;
+  margin-top: 11.25rpx;
+}
+
+.nav-img {
+  width: 112.5rpx;
+  height: 112.5rpx;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 37.5rpx;
+  border-radius: 70rpx;
+  background-size: 100% 100%;
+  background-position: 0% 0%;
+}
+
+.nav-view {
+  display: flex;
+}
+
+.tuijian-view {
+  border-top-width: 3rpx;
+  border-top-style: solid;
+  border-top-color: rgba(237, 237, 237, 1);
+  margin-top: 30rpx;
+}
+
+.tuijian-text-view {
+  width: 100%;
+  height: 52.5rpx;
+  min-height: 40rpx;
+  display: flex;
+  text-align: justify;
+  padding-top: 20rpx;
+  padding-bottom: 0rpx;
+}
+
+.tuijian-text {
+  width: 190rpx;
+  padding-left: 15rpx;
+  height: 40rpx;
+  display: flex;
+  align-items: center;
+  font-size: 35rpx;
+}
+
+.more-text {
+  width: 90rpx;
+  margin-left: 400rpx;
+  height: 40rpx;
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  color: #888;
+}
+
+.text-blue {
+  width: 7.5rpx;
+  height: 40rpx;
+  align-items: center;
+  background-color: rgb(50, 120, 230);
+}
+
+.scroll-text {
+  display: flex;
+  padding-top: 370rpx;
+  justify-content: center;
+  font-size: 35rpx;
+}
+
+.scroll-view_H {
+  white-space: nowrap;
+}
+
+.scroll-view-item_H {
+  display: inline-block;
+  width: 250rpx;
+  height: 350rpx;
+  background-size: 100% 100%;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}

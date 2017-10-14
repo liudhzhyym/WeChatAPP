@@ -1,0 +1,126 @@
+<view class="detail-view" data-c_e_id="wx_viewb7dbd52e">
+    <swiper class="detail-swiper" data-c_e_id="wx_swiper43d9f094" indicator-dots="True" lower-threshold="50">
+        <swiper-item class="c-full detail-swiper-swiperitem-01" data-c_e_id="wx_swiper_item015a5cd2">
+            <image bindtap="tap_d5808da3" class="detail-swiper-img" data-c_e_id="wx_image194006a3" mode="aspectFill" src="http://imgcdn.guoku.com/images/a7a78e93c1998177d50c85eaaf6dd021.jpg" style="background-image: url(http://imgcdn.guoku.com/images/a7a78e93c1998177d50c85eaaf6dd021.jpg); background-size:  cover; background-position:  center center; background-repeat:  no-repeat; "/>
+        </swiper-item>
+        <swiper-item class="c-full detail-swiper-swiperitem-02" data-c_e_id="wx_swiper_item1d2f7146">
+            <image class="detail-swiper-img" data-c_e_id="wx_image735f46d5" mode="aspectFill" src="http://imgcdn.guoku.com/images/90da9e1148d69c5d92a28335d286e81b.jpg" style="background-image: url(http://imgcdn.guoku.com/images/90da9e1148d69c5d92a28335d286e81b.jpg); background-size:  cover; background-position:  center center; background-repeat:  no-repeat; "/>
+        </swiper-item>
+    </swiper>
+    <view class="c-minheight detail-bookinf" data-c_e_id="wx_view_2076bc57">
+        <text class="c-block detail-name" data-c_e_id="wx_textbf43d609">书名</text>
+        <label class="checkbox c-block weui-checkbox-label_xrf515" data-c_e_id="weui_checkbox_label_57feb371"/>
+        <text class="c-block detail-text-publish" data-c_e_id="wx_text_f0b05775">出版社</text>
+    </view>
+    <view class="detail-view-borrow" data-c_e_id="wx_viewa6f000ae">
+        <navigator class="detail-view-borrow-nav" data-c_e_id="wx_navigator66f8813b" hover-class="navigator-hover">
+            <text class="c-block detail-view-borrow-nav-text" data-c_e_id="wx_text50749bcb">借阅</text>
+        </navigator>
+        <view class="detail-view-borrow-view" data-c_e_id="wx_view904ff1ed">
+            <image class="detail-view-borrow-view-img" data-c_e_id="wx_image419ab42e" mode="aspectFit" src="http://qty83k.creatby.com/materials/origin/c5656ef00d38d89eae437c5a9102f8fa_origin.png" style="background-image: url(http://qty83k.creatby.com/materials/origin/c5656ef00d38d89eae437c5a9102f8fa_origin.png); background-size: contain; background-position: center center; background-repeat: no-repeat; "/>
+        </view>
+    </view>
+    <view class="detail-view-likelist-view" data-c_e_id="wx_view_4cc0358a">
+        <navigator class="detail-view-likelist-nav" data-c_e_id="wx_navigator_800a8601" hover-class="navigator-hover">
+            <text class="c-block detail-view-text" data-c_e_id="wx_textfcc12486">214人收藏</text>
+            <text class="c-block detail-view-likelist-text" data-c_e_id="wx_texted258fa6">❯</text>
+        </navigator>
+        <view class="detail-view-likelist-likeuser-view" data-c_e_id="wx_view_ccf230eb">
+            <navigator class="detail-view-likeuser-nav" data-c_e_id="wx_navigator1586a87e" hover-class="navigator-hover">
+                <view class="detail-view-likeuser-view" data-c_e_id="wx_view2a69167c">
+                    <image class="detail-view-likeuser-img" data-c_e_id="wx_image96c6f1ad" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/large/e1786c6ae7425a1dff35caf9612e2130" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/large/e1786c6ae7425a1dff35caf9612e2130); "/>
+                </view>
+            </navigator>
+            <navigator class="detail-view-likeuser-nav" data-c_e_id="wx_navigatore7153e65" hover-class="navigator-hover">
+                <view class="detail-view-likeuser-view" data-c_e_id="wx_view7e9222ed">
+                    <image class="detail-view-likeuser-img" data-c_e_id="wx_imagea98d5f82" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/50/large_125585_7fcdf62b995e69860ce24726ec645496.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/50/large_125585_7fcdf62b995e69860ce24726ec645496.jpg); "/>
+                </view>
+            </navigator>
+            <navigator class="detail-view-likeuser-nav" data-c_e_id="wx_navigator223d3249" hover-class="navigator-hover">
+                <view class="detail-view-likeuser-view" data-c_e_id="wx_view90e01b37">
+                    <image class="detail-view-likeuser-img" data-c_e_id="wx_imagedf491a62" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/50/681eb4e30ac36d9481ea421c3fc61c6b.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/50/681eb4e30ac36d9481ea421c3fc61c6b.jpg); "/>
+                </view>
+            </navigator>
+            <navigator class="detail-view-likeuser-nav" data-c_e_id="wx_navigator29a940dd" hover-class="navigator-hover">
+                <view class="detail-view-likeuser-view" data-c_e_id="wx_viewa0e6dba2">
+                    <image class="detail-view-likeuser-img" data-c_e_id="wx_imageecdb2d3d" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/50/0395a843ff604331e61571375e2bb602.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/50/0395a843ff604331e61571375e2bb602.jpg); "/>
+                </view>
+            </navigator>
+            <navigator class="detail-view-likeuser-nav" data-c_e_id="wx_navigatora9244556" hover-class="navigator-hover">
+                <view class="detail-view-likeuser-view" data-c_e_id="wx_view18aad916">
+                    <image class="detail-view-likeuser-img" data-c_e_id="wx_image10b66a3c" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/50/large_223609_a9ef3adbd523a0e2515b76e7ac82be72.jpe" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/50/large_223609_a9ef3adbd523a0e2515b76e7ac82be72.jpe); "/>
+                </view>
+            </navigator>
+            <navigator class="detail-view-likeuser-nav" data-c_e_id="wx_navigatorf2373b98" hover-class="navigator-hover">
+                <view class="detail-view-likeuser-view" data-c_e_id="wx_view3ee2d903">
+                    <image class="detail-view-likeuser-img" data-c_e_id="wx_image43f6f60b" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/128/589c0d8d2966eb20241a61564676b7f7.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/128/589c0d8d2966eb20241a61564676b7f7.jpg); "/>
+                </view>
+            </navigator>
+            <navigator class="detail-view-likeuser-nav" data-c_e_id="wx_navigator78832b6c" hover-class="navigator-hover">
+                <view class="detail-view-likeuser-view" data-c_e_id="wx_view459d4944">
+                    <image class="detail-view-likeuser-img" data-c_e_id="wx_image09c11da9" mode="aspectFill" src="http://wx.qlogo.cn/mmopen/8uZyJIhsB4vLnWuKcuGZ1ag4uzVYgo3axoeQo75TibADQibSrCNLgFnLsSoXKB740r1qhWShAkeY65DXxSPudkjherh4dM9enx/0" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://wx.qlogo.cn/mmopen/8uZyJIhsB4vLnWuKcuGZ1ag4uzVYgo3axoeQo75TibADQibSrCNLgFnLsSoXKB740r1qhWShAkeY65DXxSPudkjherh4dM9enx/0); "/>
+                </view>
+            </navigator>
+        </view>
+    </view>
+    <view class="detail-view-comment" data-c_e_id="wx_view_c359400f">
+        <view class="detail-view-comment-num" data-c_e_id="wx_view_664566c4">
+            <text class="c-block detail-view-text" data-c_e_id="wx_text68f182cf">2人点评</text>
+        </view>
+        <view class="detail-view-01" data-c_e_id="wx_view_16d0f86f">
+            <navigator class="detail-view-likeuser-nav" data-c_e_id="wx_navigator2ffed891" hover-class="navigator-hover">
+                <view class="detail-view-likeuser-view" data-c_e_id="wx_viewd34d457a">
+                    <image class="detail-view-likeuser-img" data-c_e_id="wx_image7b2bd094" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/50/681eb4e30ac36d9481ea421c3fc61c6b.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/50/681eb4e30ac36d9481ea421c3fc61c6b.jpg); "/>
+                </view>
+            </navigator>
+            <view class="c-minheight detail-view-02" data-c_e_id="wx_view_66505bdf">
+                <view class="detail-view-03" data-c_e_id="wx_view27217bec">
+                    <navigator class="detail-nav-comment-username" data-c_e_id="wx_navigator70eae9f8" hover-class="navigator-hover">
+                        <text class="detail-text-comment-username" data-c_e_id="wx_text5fe6919d">UserName</text>
+                    </navigator>
+                </view>
+                <text class="c-block detail-text-comment" data-c_e_id="wx_text_39bacddb">点评内容</text>
+                <view class="detail-view-operate-comment" data-c_e_id="wx_view_cf5ce19f">
+                    <view class="detail-view-img-comment" data-c_e_id="wx_view3a8d0d4f">
+                        <view class="detail-view-Limg-comment" data-c_e_id="wx_viewb3b5b6f1">
+                            <image class="detail-img-comment" data-c_e_id="wx_image0736d1e2" src="http://qty83k.creatby.com/materials/origin/2459ad45d8071985f1cf7f91f3b3df66_origin.png"/>
+                        </view>
+                        <view class="detail-view-Rimg-comment" data-c_e_id="wx_view9909114c">
+                            <image class="detail-img-comment" data-c_e_id="wx_imagef86ae815" src="http://qty83k.creatby.com/materials/origin/0564a45ab780222757935674e13d6919_origin.png"/>
+                        </view>
+                    </view>
+                    <text class="detail-data-comment" data-c_e_id="wx_text8c8804b3">2016.10.29</text>
+                </view>
+            </view>
+        </view>
+        <view class="detail-view-01" data-c_e_id="wx_view4daafd3b">
+            <navigator class="detail-view-likeuser-nav" data-c_e_id="wx_navigator4581cf51" hover-class="navigator-hover">
+                <view class="detail-view-likeuser-view" data-c_e_id="wx_view94910b5d">
+                    <image class="detail-view-likeuser-img" data-c_e_id="wx_imaged4532b14" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/128/589c0d8d2966eb20241a61564676b7f7.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/128/589c0d8d2966eb20241a61564676b7f7.jpg); "/>
+                </view>
+            </navigator>
+            <view class="c-minheight detail-view-02" data-c_e_id="wx_viewc808f6b9">
+                <view class="detail-view-03" data-c_e_id="wx_view54c5a204">
+                    <navigator class="detail-nav-comment-username" data-c_e_id="wx_navigator9e12243f" hover-class="navigator-hover">
+                        <text class="detail-text-comment-username" data-c_e_id="wx_textf720176a">UserName</text>
+                    </navigator>
+                </view>
+                <text class="c-block detail-text-comment" data-c_e_id="wx_texte7f2518b">点评内容</text>
+                <view class="detail-view-operate-comment" data-c_e_id="wx_view1ec2d46b">
+                    <view class="detail-view-img-comment" data-c_e_id="wx_view126a4c3a">
+                        <view class="commentlikebtn" data-c_e_id="wx_viewe2d39273">
+                            <image class="detail-view-Limg-comment" data-c_e_id="wx_image696d6d8f" src="http://qty83k.creatby.com/materials/origin/2459ad45d8071985f1cf7f91f3b3df66_origin.png"/>
+                        </view>
+                        <view class="commentreplybtn" data-c_e_id="wx_view5c7d06ea">
+                            <image class="detail-view-Rimg-comment" data-c_e_id="wx_image23cd763a" src="http://qty83k.creatby.com/materials/origin/0564a45ab780222757935674e13d6919_origin.png"/>
+                        </view>
+                    </view>
+                    <text class="detail-data-comment" data-c_e_id="wx_text7a845479">2016.10.29</text>
+                </view>
+            </view>
+        </view>
+        <button bindtap="tap_3013baf2" class="detail-button" data-c_act_id="M_c9c3eaf9a5124a1b" data-c_e_id="wx_button86aaad14" hover-class="button-hover" size="default" type="default">
+            写点评
+        </button>
+    </view>
+</view>

@@ -1,0 +1,35 @@
+.search {
+  min-height: 0px;
+  height: 71.25rpx;
+  display: flex;
+  width: 100%;
+  margin-bottom: 0px;
+  background-color: rgb(50, 120, 230);
+}
+
+.search-input {
+  margin-left: 10px;
+  align-self: center;
+  margin-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgb(227, 227, 227);
+}
+
+.search-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52.5rpx;
+  width: 52.5rpx;
+  margin-right: 10px;
+  align-self: center;
+  background-color: transparent;
+  background-size: cover;
+}
+
+.search-nav-img {
+  width: 52.5rpx;
+  height: 52.5rpx;
+}

@@ -1,0 +1,5 @@
+<navigator catchtap="tap_10e7ce1c" class="TOT-navigator" data-c_e_id="wx_navigator_7682897f" hover-class="navigator-hover" open-type="navigate" url="../search/search"/>
+<view class="c-minheight my-userinf-view" data-c_e_id="wx_view_5a23af68">
+    <image class="my-userimg" data-c_e_id="wx_image_7907e43c" mode="scaleToFill" src="http://o3bnyc.creatby.com/diazo/images/image-placeholder.svg" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat; background-image: url(http://o3bnyc.creatby.com/diazo/images/image-placeholder.svg);"/>
+    <text class="c-block my-username" data-c_e_id="wx_text_17e5d65c">UserName</text>
+</view>

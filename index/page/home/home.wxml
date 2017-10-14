@@ -1,0 +1,32 @@
+<view class="c-minheight home-search" data-c_e_id="wx_view_f0be93c4">
+    <input class="c-block c-fullwidth home-search-input" data-c_e_id="wx_input_ea04d49d" name="input1" placeholder="请输入书名、作者" type="text"/>
+</view>
+<swiper autoplay="True" class="home-swiper" data-c_e_id="wx_swiper_dd47d95b" indicator-dots="True" interval="4000" lower-threshold="50">
+    <swiper-item class="c-full home-swiper-item-1" data-c_e_id="wx_swiper_item_96b984db"/>
+    <swiper-item class="c-full home-swiper-item-2" data-c_e_id="wx_swiper_item_98303576"/>
+    <swiper-item class="c-full home-swiper-item-3" data-c_e_id="wx_swiper_item_59aec2a2"/>
+    <swiper-item class="c-full home-swiper-item-4" data-c_e_id="wx_swiper_item_d3b18b59"/>
+    <swiper-item class="c-full home-swiper-item-5" data-c_e_id="wx_swiper_item_55455d77"/>
+</swiper>
+<navigator catchtap="tap_10e7ce1c" class="TOT-navigator" data-c_e_id="wx_navigator_7682897f" hover-class="navigator-hover" open-type="navigate" url="../search/search"/>
+<view class="c-minheight home-nav-view" data-c_e_id="wx_view_d7b49961">
+    <navigator class="home-nav" data-c_e_id="wx_navigator_3bee5010" hover-class="navigator-hover" open-type="redirect">
+        <image class="home-nav-img" data-c_e_id="wx_image_ca088b01" mode="scaleToFill" src="http://o3bnyc.creatby.com/diazo/images/image-placeholder.svg" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat; background-image: url(http://o3bnyc.creatby.com/diazo/images/image-placeholder.svg);"/>
+        <text class="c-block home-nav-text" data-c_e_id="wx_text_38c28ffb">navigator</text>
+    </navigator>
+    <navigator class="home-nav" data-c_e_id="wx_navigator_4796bed4" hover-class="navigator-hover" open-type="redirect">
+        <image class="home-nav-img" data-c_e_id="wx_image_052be3f6" mode="scaleToFill" src="http://o3bnyc.creatby.com/diazo/images/image-placeholder.svg" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat; background-image: url(http://o3bnyc.creatby.com/diazo/images/image-placeholder.svg);"/>
+        <text class="c-block home-nav-text" data-c_e_id="wx_text_c87b31ac">navigator</text>
+    </navigator>
+    <navigator class="home-nav" data-c_e_id="wx_navigator_827a3170" hover-class="navigator-hover" open-type="redirect">
+        <image class="home-nav-img" data-c_e_id="wx_image_3e0b7828" mode="scaleToFill" src="http://o3bnyc.creatby.com/diazo/images/image-placeholder.svg" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat; background-image: url(http://o3bnyc.creatby.com/diazo/images/image-placeholder.svg);"/>
+        <text class="c-block home-nav-text" data-c_e_id="wx_text_098694f8">navigator</text>
+    </navigator>
+</view>
+<view class="c-minheight home-tuijian-view" data-c_e_id="wx_view_1538be9b">
+    <view class="c-minheight home-tuijian-text-view" data-c_e_id="wx_view_2a2c6aba">
+        <text class="c-block home-text-blue" data-c_e_id="wx_text_6851a0af"/>
+        <text class="c-block home-tuijian-text" data-c_e_id="wx_text_db37a559">推荐</text>
+    </view>
+    <view class="c-minheight wx-view_45wc0U" data-c_e_id="wx_view_cfd1fef1"/>
+</view>

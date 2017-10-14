@@ -1,0 +1,86 @@
+<view class="c-minheight search">
+  <input class="c-block c-fullwidth search-input" name="input1" placeholder="请输入书名、作者" type="text" />
+</view>
+<swiper autoplay="True" class="swiper" indicator-dots="True" interval="4000" lower-threshold="50">
+  <swiper-item class="c-full swiper-item" style="background-image: url({{img}});" />
+  <swiper-item class="c-full swiper-item" style="background-image: url({{img}});" />
+  <swiper-item class="c-full swiper-item" style="background-image: url({{img}});" />
+  <swiper-item class="c-full swiper-item" style="background-image: url({{img}});" />
+  <swiper-item class="c-full swiper-item" style="background-image: url({{img}});" />
+</swiper>
+<view class="c-minheight nav-view">
+  <navigator class="nav" hover-class="navigator-hover" open-type="redirect">
+    <image class="nav-img" mode="scaleToFill" style="background-image: url({{img}});" />
+    <text class="c-block nav-text">navigator</text>
+  </navigator>
+  <navigator class="nav" hover-class="navigator-hover" open-type="redirect">
+    <image class="nav-img" mode="scaleToFill" style="background-image: url({{img}});" />
+    <text class="c-block nav-text">navigator</text>
+  </navigator>
+  <navigator class="nav" hover-class="navigator-hover" open-type="redirect">
+    <image class="nav-img" mode="scaleToFill" style="background-image: url({{img}});" />
+    <text class="c-block nav-text">navigator</text>
+  </navigator>
+</view>
+<view class="c-minheight tuijian-view">
+  <view class="c-minheight tuijian-text-view">
+    <text class="c-block text-blue" />
+    <text class="c-block tuijian-text">猜你喜欢</text>
+    <text class="c-block more-text">更多 ></text>
+  </view>
+  <template is="books" data="{{...test}}" />
+</view>
+<view class="c-minheight tuijian-view">
+  <view class="c-minheight tuijian-text-view">
+    <text class="c-block text-blue" />
+    <text class="c-block tuijian-text">推荐</text>
+    <text class="c-block more-text">更多 ></text>
+  </view>
+  <template is="books" data="{{...test}}" />
+</view>
+<view class="c-minheight tuijian-view">
+  <view class="c-minheight tuijian-text-view">
+    <text class="c-block text-blue" />
+    <text class="c-block tuijian-text">热门</text>
+    <text class="c-block more-text">更多 ></text>
+  </view>
+  <template is="books" data="{{...test}}" />
+</view>
+<view class="c-minheight tuijian-view">
+  <view class="c-minheight tuijian-text-view">
+    <text class="c-block text-blue" />
+    <text class="c-block tuijian-text">新书</text>
+    <text class="c-block more-text">更多 ></text>
+  </view>
+  <template is="books" data="{{...test}}" />
+</view>
+<navigator catchtap="tap_10e7ce1c" class="TOT-navigator" hover-class="navigator-hover" open-type="navigate" url="../search/search" />
+
+
+
+
+<template name="books">
+  <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+    <view class="scroll-view-item_H" style="background-image: url({{img}})">
+      <text class="scroll-text">{{booksname}}</text>
+    </view>
+    <view class="scroll-view-item_H" style="background-image: url({{img}})">
+      <text class="scroll-text">{{booksname}}</text>
+    </view>
+    <view class="scroll-view-item_H" style="background-image: url({{img}})">
+      <text class="scroll-text">{{booksname}}</text>
+    </view>
+    <view class="scroll-view-item_H" style="background-image: url({{img}})">
+      <text class="scroll-text">{{booksname}}</text>
+    </view>
+    <view class="scroll-view-item_H" style="background-image: url({{img}})">
+      <text class="scroll-text">{{booksname}}</text>
+    </view>
+    <view class="scroll-view-item_H" style="background-image: url({{img}})">
+      <text class="scroll-text">{{booksname}}</text>
+    </view>
+    <view class="scroll-view-item_H" style="background-image: url({{img}})">
+      <text class="scroll-text">{{booksname}}</text>
+    </view>
+  </scroll-view>
+</template>

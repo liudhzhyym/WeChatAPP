@@ -1,0 +1,7 @@
+<view class="c-minheight search">
+  <input class="c-block c-fullwidth search-input" name="input1" placeholder="请输入书名、作者" type="text" />
+  <navigator class="search-nav" hover-class="navigator-hover" open-type="redirect">
+    <image class="search-nav-img" mode="scaleToFill" src="http://qty83k.creatby.com/materials/origin/784d8f3cec9c1d59172b758b9eb70764_origin.png" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat; background-image:      url(http://qty83k.creatby.com/materials/origin/784d8f3cec9c1d59172b758b9eb70764_origin.png); "
+    />
+  </navigator>
+</view>
